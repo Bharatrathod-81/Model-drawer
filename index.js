@@ -6,6 +6,7 @@ const button = document.querySelector(".child2");
 let counter = 0;
 const  hiddenFun = () => {
     outPut.style.width = '20%';
+    counter = 0
 }
 const  hiddenFun1 = () => {
     counter+=1;
